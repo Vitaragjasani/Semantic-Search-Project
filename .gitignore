@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+
+storage/documents/*
+storage/indexes/*
+storage/metadata/*
+!storage/documents/.gitkeep
+!storage/indexes/.gitkeep
+!storage/metadata/.gitkeep
+
+streamlit_out.log
+streamlit_err.log
+streamlit.pid
